@@ -1,6 +1,6 @@
 # Data Engineering Toy Project 1
 
-이 프로젝트에서는 관세청 10대 수출입 품목 데이터를 수집하여 조건에 맞게 대시보드에 시각화하는 작업을 진행했습니다. [과정 기록](./Report)
+이 프로젝트에서는 관세청 수출입 품목 데이터를 수집하여 조건에 맞게 대시보드에 시각화하는 작업을 진행했습니다. [과정 기록](./Report)
 
 ## source
 
@@ -8,7 +8,7 @@ https://www.data.go.kr/data/3040156/fileData.do
 
 ## 사용한 기술스택
 
-![](./report/img/stack.png)
+![](./Report/img/stack.png)
 
 1. python, excel으로 데이터 전처리를 진행하였습니다.
 2. django로 REST API를 구성하여 front-end로 보내는 작업을 하였습니다. 
