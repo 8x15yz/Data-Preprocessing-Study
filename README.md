@@ -12,7 +12,7 @@ https://www.data.go.kr/data/3040156/fileData.do
 
 1. python, excel으로 데이터 전처리를 진행하였습니다.
 2. django로 REST API를 구성하여 front-end로 보내는 작업을 하였습니다. 
-3. Vue3에서 데이터를 받아오고, 웹 페이지로 시각화 하는 작업을 진행했습니다. 
+3. React 에서 데이터를 받아오고, 웹 페이지로 시각화 하는 작업을 진행했습니다. 
 
 ## 0. 목차
 
