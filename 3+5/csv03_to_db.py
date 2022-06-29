@@ -13,13 +13,14 @@ with open('./LPOINT_BIG_COMP_03_COP_U.csv') as csv03:
     zon_hlv = ''
     zon_mcls = ''
     next(csv03, None)
-    # cnt = 0
+    cnt = 0
     for row03 in csv03:
         for arr in list05:
             if arr.br_c == row03[12]:
                 zon_hlv = arr.zon_hlv
                 zon_mcls = arr.zon_mcls
-                print(row03[12], zon_hlv, zon_mcls)
+                cnt += 1
+                print(row03[12], zon_hlv, zon_mcls, cnt)
                 CopUBr.objects.create(
                     cust = row03[0],
                     rct_no = row03[1],
