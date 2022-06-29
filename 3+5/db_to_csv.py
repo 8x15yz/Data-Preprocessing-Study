@@ -24,7 +24,7 @@ from tpf.models import CopUBr, BR
 #             'zon_mcls':row.zon_mcls
 #             })
 list03 = CopUBr.objects.all()
-with open('./db_to_csv.csv', 'w', newline='') as f_csv:
+with open('./db_to_csv_v2.csv', 'w', newline='') as f_csv:
     field_names = ['id', 'cust', 'rct_no', 'cop_c', 'chnl_dv',\
         'de_dt_y', 'de_dt_m', 'de_dt_d', 'vst_dt_y', 'vst_dt_m', 'vst_dt_d',\
             'de_hr', 'buy_am', 'br_c', 'zon_hlv', 'zon_mcls']
