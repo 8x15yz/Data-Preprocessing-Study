@@ -121,7 +121,7 @@ v-for문으로 정렬함
 
 2. 대시보드 디자인
 
-​	![](./img/07.png)라인차트는 [Chart.js](https://pinokio0702.tistory.com/388) 사용할 예정
+​	![](./img/07.png)라인차트는 [Chart.js](https://pinokio0702.tistory.com/388) 사용할 예정 [참고](https://velog.io/@rhak39/Vue-Chart.js-%EC%A0%95%EB%A6%AC)
 
 개별 데이터를 선택해서 조회할 수 있도록 각각 체크박스를 달 것이고
 
