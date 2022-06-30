@@ -79,11 +79,11 @@ class BR(models.Model):
 
 ### 3. 코드 설명
 
-[csv05_to_db.py](220629/3+5/csv05_to_db.py )  5번 파일에서 데이터를 받아 django 모델 **(BR)**에 담는 작업
+[csv05_to_db.py](3+5/csv05_to_db.py )  5번 파일에서 데이터를 받아 django 모델 **(BR)**에 담는 작업
 
-[csv03_to_db.py](220629/3+5/csv03_to_db.py  )  3번 + 5번 데이터 합치는 작업
+[csv03_to_db.py](3+5/csv03_to_db.py  )  3번 + 5번 데이터 합치는 작업
 
-[db_to_csv.py ](220629/3+5/db_to_csv.py ) 완성한 db를 csv 로 내보내는 작업
+[db_to_csv.py ](3+5/db_to_csv.py ) 완성한 db를 csv 로 내보내는 작업
 
 ## 결과물 [파일](220629/3+5/db_to_csv_v2.csv)
 
@@ -93,7 +93,7 @@ class BR(models.Model):
 
 ![](./img/05.png)
 
-[csv03_to_db.py](220629/3+5/csv03_to_db.py  )  에서 예외처리할 때 br_c 값은 생각 안하고 그냥 db에 넣어서 공란이 생겨버렸다 ..
+[csv03_to_db.py](3+5/csv03_to_db.py  )  에서 예외처리할 때 br_c 값은 생각 안하고 그냥 db에 넣어서 공란이 생겨버렸다 ..
 
 다음에는 정신차리고 코드 짜기ㅠㅠ
 
