@@ -6,23 +6,8 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "threePlusFive.settings")
 django.setup() 
 
-from tpf.models import CopUBr, BR
+from tpf.models import CopUBr
 
-# list05 = BR.objects.all()
-# with open('./db_to_csv05.csv', 'w', newline='') as f_csv:
-#     field_names = ['id', 'br_c', 'zon_hlv', 'zon_mcls']
-#     data_writer = csv.DictWriter(f_csv, fieldnames=field_names) 
-#     data_writer.writeheader()
-
-#     for row in list05:
-#         print(row)
-#         print(row.id)
-#         data_writer.writerow({
-#             'id':row.id,
-#             'br_c':row.br_c, 
-#             'zon_hlv':row.zon_hlv,
-#             'zon_mcls':row.zon_mcls
-#             })
 list03 = CopUBr.objects.all()
 with open('./db_to_csv_v2.csv', 'w', newline='') as f_csv:
     field_names = ['id', 'cust', 'rct_no', 'cop_c', 'chnl_dv',\
