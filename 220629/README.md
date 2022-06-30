@@ -85,7 +85,7 @@ class BR(models.Model):
 
 [db_to_csv.py ](3+5/db_to_csv.py ) 완성한 db를 csv 로 내보내는 작업
 
-## 결과물 [파일](220629/3+5/db_to_csv_v2.csv)
+## 결과물 [파일](3+5/db_to_csv_v2.csv)
 
 ![](./img/04.png)
 
